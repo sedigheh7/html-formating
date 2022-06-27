@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Formatting</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>
+            <h3>Semantics in HTML</h3>
+        </legend>
+            <p>&#128073;In HTML&#44; for example&#44; the &lt;<strong>h1</strong>&gt; element is a semantic element&#44;
+            which gives the text it wraps around the role &#40;or meaning&#41; of &#34;a top level heading on your
+            page&#46;&#34;
+            </p>
+        <details>
+            <summary><mark>Here is a top level heading</mark></summary>
+            <p>&#128073; By defalt&#44; most browser&#39;s user agent stylesheet will style an&lt;h1&gt;with a large
+                font size to make it look like a heading &#40;although you could style it to look like anything you
+                wanted&#41;&#46; On the other hand&#44; you could make any element look like a top level heading&#46;
+            </p>
+        </details>
+        <details>
+            <summary><mark>Consider the following</mark></summary>
+            <p>&#8680;this will render it to look like a top level heading&#44; but it has no semantic value&#44;so it
+                will not get any extra benefits as described above&#46;it is therefore a good idea to use the right HTML
+                element for the right job&#46;
+            </p>
+            <p>&#8680; HTML should be coded to represent the data that will be populated and based on its default
+                presentation styling&#46; Presentation&#40;how it should look&#41;&#44;is responsibility of CSS&#46;
+            </p>
+        </details>
+
+    </fieldset>
+    <fieldset>
+        <legend>
+            <h4>Some of the benefits from writing semantic markup are as follows&#58; </h4>
+        </legend>
+        <ul>
+            <li>search engines will consider its contents as important keywords to influence the page&#39;s search
+                rankings&#40;see <a href="https://developer.mozilla.org/en-US/docs/Glossary/SEO">seo</a>&#41; </li>
+            <li>screen readers can use it as a signpost to help visually impaired users navigate a page</li>
+            <li>finding blocks of meaningful code is significantly easier than searching through endless divs with or
+                with or without semantic or namespaced classes </li>
+            <li>suggests to the developer the type of data that will be populated</li>
+            <li>semantic naming mirrors proper custom element&#47;component naming</li>
+        </ul>
+    </fieldset>
+    <caption><strong>some semantic elements</strong></caption>
+    <table border="1" width="100%">
+        <tr>
+            <td>article</td>
+            <td>aside</td>
+            <td>figure</td>
+            <td>details</td>
+            <td>figcaption</td>
+            <td>figure</td>
+
+        </tr>
+        <tr>
+            <td>footer</td>
+            <td>header</td>
+            <td><mark>mark</mark></td>
+            <td>main</td>
+            <td>em</td>
+            <td>nav</td>
+        </tr>
+        <tr>
+            <td>
+                <srtong>strong</srtong>
+            </td>
+            <td>section</td>
+            <td>summary</td>
+            <td>time</td>
+            <td>address</td>
+            <td>blockquote</td>
+        </tr>
+    </table>
+    <fieldset>
+        <legend>
+            <h3>SEO</h3>
+        </legend>
+        <p><mark>&#11088;SEO &#40;search engine Optimization&#41;</mark>is the process of making a website more visible
+            in search results
+            &#44; also terned improving search rankings&#46;
+        </p>
+        <p>&#11088; Search engine <b>crawl</b> the web, following links from page to page and index the content found.
+            When you
+            search engine displays the indexed content.Crawlers follow rules. If you
+            follow those rules closeley when doing SEO for a website, you give the site the best chances of
+            showing up among the first result, increasing trafic and possibly revenue &#40;<em>for ecommerce and
+                ads</em>&#41;.
+        </p>
+        <p>&#11088; search engines keep result ranking as a trade secret. SEO combines official search engine
+            guidelines, empricial knowledge, and theoretical knowledge from science papers or patents.
+        </p>
+    </fieldset>
+    <footer><b>Hint:</b>the information on this page is taken from the MDN site.
+        <a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_css">click</a>
+         for more detailed information.
+    </footer>
+</body>
+
+</html>
